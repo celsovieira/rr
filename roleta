@@ -6,5 +6,5 @@ var computerChoice = Math.floor(Math.random() * 6 + 1);
     console.log("the" + computerChoice + "th hole had a bullet.");
    
     } else {
-    console.log("You survived!");
+    console.log("You survived! or not...");
   }
