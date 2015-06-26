@@ -1,0 +1,10 @@
+confirm("Are you ready to play Russian Roullete?")
+var userChoice = prompt("Choose a number from 1 to 6 to place the bullet in the round");
+var computerChoice = Math.floor(Math.random() * 6 + 1);
+
+  if (userChoice == computerChoice) {
+    console.log("the" + computerChoice + "th hole had a bullet.");
+   
+    } else {
+    console.log("You survived!");
+  }
