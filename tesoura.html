@@ -1,0 +1,11 @@
+<script>
+var userChoice = prompt("Voce escolhe pedra, papel ou tesoura?");
+var computerChoice = Math.random();
+if (computerChoice < 0.34) {
+	computerChoice = "pedra";
+} else if(computerChoice <= 0.67) {
+	computerChoice = "papel";
+} else {
+	computerChoice = "tesoura";
+} confirm("Computer: " + computerChoice);
+</script>

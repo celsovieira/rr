@@ -4,9 +4,9 @@ var userChoice = prompt("Choose a number from 1 to 6 to place the bullet in the 
 var computerChoice = Math.floor(Math.random() * 6 + 1);
 
   if (userChoice == computerChoice) {
-    console.log("the" + computerChoice + "th hole had a bullet.");
+    confirm("You're DONE! The" + computerChoice + "th hole had a bullet.");
    
     } else {
-    console.log("You survived!");
+    confirm("You survived!");
   }
   </script>
